@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Word Counter</title>
+
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+			rel="stylesheet"
+		/>
+
+		<link rel="stylesheet" href="./style.css" />
+	</head>
+	<body>
+		<div class="type-box">
+			<h1 id="head">Word Counter</h1>
+			<p>Limit: 100 characters | 50 words</p>
+			<textarea
+				id="typeHere"
+				placeholder="Enter your text here..."
+			></textarea>
+			<p>
+				Characters: <span id="characters">0</span> | Remaining:
+				<span id="charactersRemaining">100</span>
+			</p>
+			<p>
+				Words: <span id="words">0</span> | Remaining:
+				<span id="wordsRemaining">50</span>
+			</p>
+		</div>
+
+		<script src="./app.js"></script>
+	</body>
+</html>
