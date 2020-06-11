@@ -15,18 +15,21 @@
 	<body>
 		<div class="type-box">
 			<h1 id="head">Word Counter</h1>
-			<p>Limit: 100 characters | 50 words</p>
+			<p>
+				Limit: <span id="character-limit"></span> characters |
+				<span id="word-limit"></span> words
+			</p>
 			<textarea
 				id="typeHere"
 				placeholder="Enter your text here..."
 			></textarea>
 			<p>
 				Characters: <span id="characters">0</span> | Remaining:
-				<span id="charactersRemaining">100</span>
+				<span id="charactersRemaining"></span>
 			</p>
 			<p>
 				Words: <span id="words">0</span> | Remaining:
-				<span id="wordsRemaining">50</span>
+				<span id="wordsRemaining"></span>
 			</p>
 		</div>
 
